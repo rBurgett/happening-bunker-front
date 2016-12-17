@@ -1,0 +1,72 @@
+// Import Bootstrap Styles Here
+
+@import "bootstrap/bootstrap.less";
+
+// Add Styles Here
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+
+#root {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+/******************
+ ****  Header  ****
+ ******************/
+
+.header-nav-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #333;
+}
+.header-nav-flex-container div {
+    text-align: center;
+}
+.header-nav-flex-container div.spacer {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.header-nav-flex-container div a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-nav-flex-container div a:hover {
+    background-color: #555;
+    text-decoration: none;
+}
+.header-nav-flex-container div a:focus {
+    text-decoration: none;
+}
+.page-header {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-header h1 {
+    margin-top: 0;
+    margin-bottom: 10;
+    font-size: 26px;
+}
+
+/******************
+ ****  Footer  ****
+ ******************/
+
+.footer-container p a {
+    color: #fff;
+}
